@@ -1,14 +1,19 @@
 <script setup lang="ts">
-import Hello from "./components/Hello.vue";
+import HomeView from "./views/HomeView.vue";
 </script>
 
 <template>
   <div>
-    <Hello msg="The Matrix has you..." />
+    <HomeView />
   </div>
 </template>
 
 <style>
+*,
+*::before,
+*::after {
+  font-family: "VT323";
+}
 html {
   overflow: hidden;
   height: 100%;
