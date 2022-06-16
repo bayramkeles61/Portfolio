@@ -1,5 +1,6 @@
 import { defineConfig } from 'vite'
 import Vue from '@vitejs/plugin-vue'
+import Components from "unplugin-vue-components/vite"
 import WindiCSS from 'vite-plugin-windicss'
 import ViteFonts from "vite-plugin-fonts";
 
@@ -7,15 +8,11 @@ import ViteFonts from "vite-plugin-fonts";
 export default defineConfig({
   plugins: [
     Vue(),
+    Components(),
     WindiCSS(),
     ViteFonts({
       google: {
         families: [
-          "VT323",
-          "Source Code Pro",
-          "Open Sans",
-          "Lato",
-          "Manrope",
           "Roboto"],
       },
     }),
