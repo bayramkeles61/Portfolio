@@ -38,6 +38,13 @@
 					<Icon icon="uil:github-alt" />
 				</div>
 			</a>
+			<a href="https://www.buymeacoffee.com/bayramkeles" target="_blank">
+				<div
+					class="flex items-center justify-center hover:text-gray-800 rounded-full cursor-pointer"
+				>
+					<Icon icon="uil:coffee" />
+				</div>
+			</a>
 		</div>
 	</div>
 </template>
