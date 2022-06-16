@@ -5,6 +5,12 @@ import '@vue/runtime-core'
 
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
+    CardHeader: typeof import('./src/components/CardHeader.vue')['default']
+    CardPortfolio: typeof import('./src/components/CardPortfolio.vue')['default']
+    CardSocial: typeof import('./src/components/CardSocial.vue')['default']
+    CardWork: typeof import('./src/components/CardWork.vue')['default']
+    CardWorks: typeof import('./src/components/CardWorks.vue')['default']
+    PortfolioCard: typeof import('./src/components/PortfolioCard.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
   }
