@@ -4,4 +4,7 @@ import router from './router'
 
 import "virtual:fonts.css";
 import 'virtual:windi.css'
-createApp(App).use(router).mount('#app')
+
+import { Icon } from "@iconify/vue";
+
+createApp(App).use(router).component("Icon", Icon).mount('#app')

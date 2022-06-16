@@ -2,7 +2,7 @@
 	import HomeView from "./views/HomeView.vue";
 </script>
 <template>
-	<div class="h-screen w-screen">
+	<div class="h-screen w-screen flex items-center justify-center p-20">
 		<HomeView />
 	</div>
 </template>
