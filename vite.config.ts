@@ -13,7 +13,7 @@ export default defineConfig({
     ViteFonts({
       google: {
         families: [
-          "Roboto"],
+          "Open Sans"],
       },
     }),
   ]
